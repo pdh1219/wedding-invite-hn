@@ -91,7 +91,7 @@ function App() {
 
         <section className="greeting-section" aria-label="신랑 신부 인삿말">
           <p className="greeting-title">INVITATION</p>
-          <br />
+          
           <p className="greeting-text">
             어떤 날은<br />
             처음 사랑하던
