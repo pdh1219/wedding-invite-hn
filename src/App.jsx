@@ -115,11 +115,7 @@ function App() {
         </section>
 
         <Calendar2026Feb />
-
-        /*
-        <Gallery />
-        */
-        
+     
         <Payment />
 
         <MapSection /> 
