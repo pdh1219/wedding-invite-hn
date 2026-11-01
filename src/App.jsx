@@ -116,7 +116,9 @@ function App() {
 
         <Calendar2026Feb />
 
+        /*
         <Gallery />
+        */
         
         <Payment />
 
