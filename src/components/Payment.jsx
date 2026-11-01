@@ -26,7 +26,7 @@ function AccountSection() {
           <p className="account-role">신랑측 계좌</p>
           <p className="account-info">
             <span className="account-row">
-              <strong>하나은행 02913241889</strong>
+              <strong>토스뱅크 1000-6087-0659</strong>
               <button
                 className="copy-btn-mini"
                 onClick={() => {
@@ -39,24 +39,7 @@ function AccountSection() {
               </button>
             </span>
             <br />
-            예금주 : 김문태
-          </p>
-          <p className="account-info">
-            <span className="account-row">
-              <strong>케이뱅크 100149166673</strong>
-              <button
-                className="copy-btn-mini"
-                onClick={() => {
-                  navigator.clipboard.writeText("케이뱅크 100149166673");
-                  alert("신랑측 계좌번호가 복사되었습니다.");
-                }}
-                aria-label="계좌번호 복사"
-              >
-                복사
-              </button>
-            </span>
-            <br />
-            예금주 : 김성윤
+            예금주 : 손석호
           </p>
         </div>
       )}
@@ -75,7 +58,7 @@ function AccountSection() {
           <p className="account-role">신부측 계좌</p>
           <p className="account-info">
             <span className="account-row">
-              <strong>케이뱅크 100118753818</strong>
+              <strong>토스뱅크 1000-3927-2869</strong>
               <button
                 className="copy-btn-mini"
                 onClick={() => {
@@ -88,7 +71,7 @@ function AccountSection() {
               </button>
             </span>
             <br />
-            예금주 : 박대희
+            예금주 : 이한나
           </p>
         </div>
       )}
