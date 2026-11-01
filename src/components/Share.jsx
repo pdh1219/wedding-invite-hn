@@ -29,7 +29,7 @@ function Share() {
       content: {
         title: "석호♥한나, 12월 26일 결혼해요 💍",
         description: "규수당 문래점 카이타스홀 · 오후 6시",
-        imageUrl: "https://pdh1219.github.io/wedding-invite-hn/images/99.png", // 원하는 이미지 URL 입력
+        imageUrl: "https://pdh1219.github.io/wedding-invite-hn/images/999.jpg", // 원하는 이미지 URL 입력
         link: {
           mobileWebUrl: 'https://pdh1219.github.io/wedding-invite-hn/',
           webUrl: 'https://pdh1219.github.io/wedding-invite-hn/',
