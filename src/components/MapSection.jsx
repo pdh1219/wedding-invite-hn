@@ -11,8 +11,8 @@ function MapSection() {
       const container = document.getElementById("map");
       if (!container) return;
 
-      const lat = 37.51406;
-      const lng = 127.0373;
+      const lat = 37.517765;
+      const lng = 126.900107;
 
       const destination = new kakao.maps.LatLng(lat, lng);
 
@@ -27,11 +27,11 @@ function MapSection() {
       const marker = new kakao.maps.Marker({
         map,
         position: destination,
-        title: "서울 빌라드지디 논현",
+        title: "규수당 문래점",
       });
 
       const infowindow = new kakao.maps.InfoWindow({
-        content: `<div style="padding:5px; font-size:14px;">서울 빌라드지디 논현</div>`,
+        content: `<div style="padding:5px; font-size:14px;">규수당 문래점</div>`,
       });
       infowindow.open(map, marker);
 
@@ -43,7 +43,7 @@ function MapSection() {
 
         if (goMap) {
           window.open(
-            `https://map.kakao.com/link/map/서울 빌라드지디 논현,${lat},${lng}`,
+            `https://map.kakao.com/link/map/규수당 문래점,${lat},${lng}`,
             "_blank"
           );
         }
@@ -96,29 +96,32 @@ function MapSection() {
           color: "#444",
         }}
       >
-        <strong style={{ fontSize: "15px" }}>빌라드지디 논현</strong>
-        <div>· 서울 강남구 언주로126길 23 (논현동)</div>
-        <div>· 02-547-3381</div>
+        <strong style={{ fontSize: "15px" }}>규수당 문래점</strong>
+        <div>· 서울특별시 영등포구 영등포구 문래로 164, SK리더스뷰 2층</div>
+        <div>· 02-332-9000</div>
 
         <br />
 
-        <strong style={{ fontSize: "15px" }}>자가용 이용 시 주차 안내</strong>
-        <div>· 'SK 허브블루' 주차 후 셔틀버스 이용 <br />
-        {"\u00A0\u00A0"}(SK 허브블루 : 강남구 학동로 342) 
-        </div>
-        <div>· 예식장 앞 발렛파킹 진행</div>
+        <strong style={{ fontSize: "15px" }}>Subway 지하철 이용시</strong>
+        <div>· 2호선 문래역 하차<br /></div>
+        <div>· [셔틀버스] 4번 출구(뒷쪽) 셔틀버스 운행</div>
+        <div>· [도보] 5번 출구 전방 직진 300M</div>
 
         <br />
 
-        <strong style={{ fontSize: "15px" }}>무료 셔틀버스 운행</strong>
-        <div>· 강남구청역 2번출구 20m 앞 10분 간격 운행</div>
-        <div>· 강남구청역 → 예식장 : 10:30~12:00</div>
-        <div>· 예식장 → 강남구청역 : 12:30~13:30</div>
+        <strong style={{ fontSize: "15px" }}> Bus 버스 이용시</strong>
+        <div>· 문래역 하차</div>
+        <div>· 간선버스 641</div>
+        <div>· 지선버스6211, 6516, 6625</div>
+        <div>· 마을버스영등포05, 영등포12</div>
 
         <br />
-
-        <div style={{ color: "#800010" }}>※ 장소가 협소한 관계로<br/> 
-        {"\u00A0\u00A0\u00A0"}축하 화환은 마음만 감사히 받겠습니다.</div>
+        
+        <strong style={{ fontSize: "15px" }}>Car 자가용 이용시</strong>
+        <div>· 네비게이션 : "규수당 문래점" 또는 "문래동 SK리더스뷰" 검색</div>
+        <div>· 주소 검색 "서울 영등포구 문래로 164" 또는 "서울 영등포구 문래동3가 55-16" 입력</div>
+        <div>· 주차장 : 동시 300여대 주차 가능</div>
+        
       </div>
     </div>
   );
