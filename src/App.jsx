@@ -79,7 +79,7 @@ function App() {
         </section>
 
         <section className="image-box" aria-label="배경 이미지">
-          <img src="./images/99.jpg" alt="웨딩사진 타이틀" />
+          <img src="./images/99.png" alt="웨딩사진 타이틀" />
         </section>
 
         <section aria-labelledby="schedule-title">
