@@ -7,7 +7,7 @@ import Share from './components/Share';
 
 function Calendar2026Feb() {
   const year = 2026;
-  const month = 1; // 0:1월, 1:2월
+  const month = 11; // 0:1월, 1:2월
 
   const firstDay = new Date(year, month, 1).getDay();
   const lastDate = new Date(year, month + 1, 0).getDate();
