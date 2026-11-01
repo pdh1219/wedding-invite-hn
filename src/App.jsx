@@ -84,7 +84,7 @@ function App() {
 
         <section aria-labelledby="schedule-title">
           <p className="schedule" id="schedule-title">
-            2026.12.26 SAT PM 06:00<br />
+            2026.12.26 토요일 오후 6시<br />
             규수당 문래점 카이타스홀
           </p>
         </section>
