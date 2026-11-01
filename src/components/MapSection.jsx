@@ -99,7 +99,7 @@ function MapSection() {
 
         <strong style={{ fontSize: "15px" }}>대중교통 이용시</strong>
         <div>· 2호선 문래역 하차<br /></div>
-        <div>· [셔틀버스] 4번출구(뒷쪽) 셔틀버스 운행</div>
+        <div>· [셔틀버스] 4번출구(오른쪽) 셔틀버스 운행</div>
         <div>· [버스] 3번출구 영등포05 , 지선6625</div>
         <div>· [도보] 5번출구 전방 직진 300M</div>
 
