@@ -40,8 +40,8 @@ function Calendar2026Feb() {
   }
 
   return (
-    <section className="calendar" aria-label="2026년 2월 달력">
-      <h2 className="calendar-title">2026년 2월</h2>
+    <section className="calendar" aria-label="2026년 12월 달력">
+      <h2 className="calendar-title">2026년 12월</h2>
       <br />
       <div className="calendar-grid" aria-hidden="true">
         {["일", "월", "화", "수", "목", "금", "토"].map((d) => (
@@ -51,7 +51,7 @@ function Calendar2026Feb() {
 
       <div className="date-grid">
         {calendarDays.map(({ day, inactive, key }) => {
-          const isToday = !inactive && day === 28;
+          const isToday = !inactive && day === 26;
 
           return (
             <div
@@ -75,7 +75,7 @@ function App() {
 
         <section aria-labelledby="date-title">
           <h1 className="date-large" id="date-title">WEDDING DAY</h1>
-          <p className="name">성윤 <span className="and">그리고</span> 대희</p>
+          <p className="name">석호 <span className="and">그리고</span> 한나</p>
         </section>
 
         <section className="image-box" aria-label="배경 이미지">
@@ -84,7 +84,7 @@ function App() {
 
         <section aria-labelledby="schedule-title">
           <p className="schedule" id="schedule-title">
-            2026.02.28 SAT AM 11:30<br />
+            2026.12.26 SAT PM 06:00<br />
             빌라드지디 논현
           </p>
         </section>
@@ -93,23 +93,21 @@ function App() {
           <p className="greeting-title">INVITATION</p>
           <br />
           <p className="greeting-text">
-            7년의 함께함 끝에<br />
-            2026년 봄의 시작<br />
-            영원을 약속하려고 합니다.<br /><br />
-            믿음과 사랑으로 약속하는 날에<br />
-            귀한 걸음 하시어<br />
-            저희의 사랑의 결실을 축복해주시면<br />
-            더없는 기쁨으로 간직하겠습니다.
+            어떤 날은 처음 사랑하던 떨리는 그날처럼<br />
+            어떤 날은 편안하고 오래된 친구처럼<br />
+            모든 순간, 모든 당신을 사랑하겠습니다.<br /><br />
+            서로를 향한 사랑으로<br />
+            하나가 되는 자리에 함께해 주세요<br />
           </p>
           
           <div className="family-info">
             <p className="family-line">
-              <span>김문태 · 조성혜 의 아들</span>
-              <strong>김성윤</strong>
+              <span>손병희 · 이순선 의 아들</span>
+              <strong>손석호</strong>
             </p>
             <p className="family-line">
-              <span>박호영 · 조용효 의 딸</span>
-              <strong>박대희</strong>
+              <span>이창수 · 김정희 의 딸</span>
+              <strong>이한나</strong>
             </p>
           </div>
         </section>
