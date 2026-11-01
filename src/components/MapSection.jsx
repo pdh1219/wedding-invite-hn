@@ -31,7 +31,14 @@ function MapSection() {
       });
 
       const infowindow = new kakao.maps.InfoWindow({
-        content: `<div style="padding:5px; font-size:14px;">규수당 문래점</div>`,
+        content: `<div style="
+                    display: inline-block;
+                    padding: 5px 8px;
+                    font-size: 14px;
+                    white-space: nowrap;
+                    width: auto;
+                    box-sizing: border-box;
+                  ">규수당 문래점</div>`,
       });
       infowindow.open(map, marker);
 
