@@ -30,7 +30,7 @@ function AccountSection() {
               <button
                 className="copy-btn-mini"
                 onClick={() => {
-                  navigator.clipboard.writeText("토스뱅크 1000-6087-0659");
+                  navigator.clipboard.writeText("토스뱅크 100060870659");
                   alert("신랑측 계좌번호가 복사되었습니다.");
                 }}
                 aria-label="계좌번호 복사"
@@ -62,7 +62,7 @@ function AccountSection() {
               <button
                 className="copy-btn-mini"
                 onClick={() => {
-                  navigator.clipboard.writeText("토스뱅크 1000-3927-2869");
+                  navigator.clipboard.writeText("토스뱅크 100039272869");
                   alert("신부측 계좌번호가 복사되었습니다.");
                 }}
                 aria-label="계좌번호 복사"
