@@ -22,7 +22,7 @@ function MapSection() {
       });
 
       const zoomControl = new kakao.maps.ZoomControl();
-      map.addControl(zoomControl, kakao.maps.ControlPosition.CENTER);
+      map.addControl(zoomControl, kakao.maps.ControlPosition.RIGHT);
 
       const marker = new kakao.maps.Marker({
         map,
@@ -97,7 +97,7 @@ function MapSection() {
         }}
       >
         <strong style={{ fontSize: "15px" }}>규수당 문래점</strong>
-        <div>· 서울시 영등포구 문래로 164, SK리더스뷰 2층</div>
+        <div>· 서울 영등포구 문래로 164, SK리더스뷰 2층</div>
         <div>· 02-332-9000</div>
 
         <br />
@@ -111,7 +111,7 @@ function MapSection() {
         <br />
         
         <strong style={{ fontSize: "15px" }}>자가용 이용시</strong>
-        <div>· "규수당 문래점",<br />"문래동 SK리더스뷰" 검색</div>
+        <div>· "규수당 문래점", "문래동 SK리더스뷰" 검색</div>
         <div>· 주소 : 영등포구 문래로 164 SK리더스뷰 2층</div>
         <div>· 주차장 : 동시 300여대 주차 가능</div>
         
