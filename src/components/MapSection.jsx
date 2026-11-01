@@ -31,7 +31,8 @@ function MapSection() {
       });
 
       const infowindow = new kakao.maps.InfoWindow({
-        content: `<div style="width:100%; padding:5px; font-size:14px;">규수당 문래점</div>`,
+        position:  new daum.maps.LatLng(position.latlng[0], position.latlng[1]),
+        content: '<span sytle="display: block; text-align: center;">규수당 문래점</span>'
       });
       infowindow.open(map, marker);
 
