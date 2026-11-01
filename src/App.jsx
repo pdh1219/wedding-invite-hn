@@ -101,7 +101,8 @@ function App() {
             모든 순간 모든 당신을<br />
             사랑하겠습니다.<br /><br />
             서로를 향한 사랑으로<br />
-            하나가 되는 자리에 함께해 주세요<br />
+            하나가 되는 자리에<br />
+            함께해 주세요<br />
           </p>
           
           <div className="family-info">
