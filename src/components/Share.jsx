@@ -27,20 +27,20 @@ function Share() {
     window.Kakao.Share.sendDefault({
       objectType: "feed",
       content: {
-        title: "성윤♥대희, 2월 28일 결혼해요 💍",
-        description: "빌라드지디 논현 · AM 11:30",
-        imageUrl: "https://pdh1219.github.io/wedding-invite/images/357.jpg", // 원하는 이미지 URL 입력
+        title: "석호♥한나, 12월 26일 결혼해요 💍",
+        description: "규수당 문래점 카이타스홀 · 오후 6시",
+        imageUrl: "https://pdh1219.github.io/wedding-invite-hn/images/99.png", // 원하는 이미지 URL 입력
         link: {
-          mobileWebUrl: 'https://pdh1219.github.io/wedding-invite/',
-          webUrl: 'https://pdh1219.github.io/wedding-invite/',
+          mobileWebUrl: 'https://pdh1219.github.io/wedding-invite-hn/',
+          webUrl: 'https://pdh1219.github.io/wedding-invite-hn/',
         },
       },
       buttons: [
         {
           title: "청첩장 보기",
           link: {
-            mobileWebUrl: 'https://pdh1219.github.io/wedding-invite/',
-            webUrl: 'https://pdh1219.github.io/wedding-invite/',
+            mobileWebUrl: 'https://pdh1219.github.io/wedding-invite-hn/',
+            webUrl: 'https://pdh1219.github.io/wedding-invite-hn/',
           },
         },
       ],
