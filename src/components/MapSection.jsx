@@ -22,7 +22,7 @@ function MapSection() {
       });
 
       const zoomControl = new kakao.maps.ZoomControl();
-      map.addControl(zoomControl, kakao.maps.ControlPosition.RIGHT);
+      map.addControl(zoomControl, kakao.maps.ControlPosition.CENTER);
 
       const marker = new kakao.maps.Marker({
         map,
@@ -102,23 +102,17 @@ function MapSection() {
 
         <br />
 
-        <strong style={{ fontSize: "15px" }}>Subway 지하철 이용시</strong>
+        <strong style={{ fontSize: "15px" }}>대중교통 이용시</strong>
         <div>· 2호선 문래역 하차<br /></div>
-        <div>· [셔틀버스] 4번 출구(뒷쪽) 셔틀버스 운행</div>
-        <div>· [도보] 5번 출구 전방 직진 300M</div>
-
-        <br />
-
-        <strong style={{ fontSize: "15px" }}> Bus 버스 이용시</strong>
-        <div>· 문래역 3번출구 하차</div>
-        <div>· 영등포 05</div>
-        <div>· 지선 6625</div>
+        <div>· [셔틀버스] 4번출구(뒷쪽) 셔틀버스 운행</div>
+        <div>· [버스] 3번출구 영등포05 , 지선6625</div>
+        <div>· [도보] 5번출구 전방 직진 300M</div>
 
         <br />
         
-        <strong style={{ fontSize: "15px" }}>Car 자가용 이용시</strong>
-        <div>· "규수당 문래점" 또는 "문래동 SK리더스뷰" 검색</div>
-        <div>· 주소 : 서울시 영등포구 문래로 164 SK리더스뷰 2층</div>
+        <strong style={{ fontSize: "15px" }}>자가용 이용시</strong>
+        <div>· "규수당 문래점", "문래동 SK리더스뷰" 검색</div>
+        <div>· 주소 : 영등포구 문래로 164 SK리더스뷰 2층</div>
         <div>· 주차장 : 동시 300여대 주차 가능</div>
         
       </div>
