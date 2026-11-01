@@ -110,16 +110,15 @@ function MapSection() {
         <br />
 
         <strong style={{ fontSize: "15px" }}> Bus 버스 이용시</strong>
-        <div>· 문래역 하차</div>
-        <div>· 간선버스 641</div>
-        <div>· 지선버스6211, 6516, 6625</div>
-        <div>· 마을버스영등포05, 영등포12</div>
+        <div>· 문래역 3번출구 하차</div>
+        <div>· 영등포 05</div>
+        <div>· 지선 6625</div>
 
         <br />
         
         <strong style={{ fontSize: "15px" }}>Car 자가용 이용시</strong>
-        <div>· 네비게이션 : "규수당 문래점" 또는 "문래동 SK리더스뷰" 검색</div>
-        <div>· 주소 검색 "서울 영등포구 문래로 164" 또는 "서울 영등포구 문래동3가 55-16" 입력</div>
+        <div>· "규수당 문래점" 또는 "문래동 SK리더스뷰" 검색</div>
+        <div>· 주소 : 서울시 영등포구 문래로 164 SK리더스뷰 2층</div>
         <div>· 주차장 : 동시 300여대 주차 가능</div>
         
       </div>
