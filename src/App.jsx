@@ -1,6 +1,5 @@
 import React from 'react';
 import './App.css';
-import Gallery from './components/Gallery';
 import MapSection from './components/MapSection';
 import Payment from './components/Payment';
 import Share from './components/Share';
