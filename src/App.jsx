@@ -93,9 +93,14 @@ function App() {
           <p className="greeting-title">INVITATION</p>
           <br />
           <p className="greeting-text">
-            어떤 날은 처음 사랑하던 떨리는 그날처럼<br />
-            어떤 날은 편안하고 오래된 친구처럼<br />
-            모든 순간, 모든 당신을 사랑하겠습니다.<br /><br />
+            어떤 날은<br />
+            처음 사랑하던
+            떨리는 그날처럼<br /><br />
+            어떤 날은<br />
+            편안하고 오래된 친구처럼<br /><br />
+            모든 순간<br />
+            모든 당신을<br />
+            사랑하겠습니다.<br /><br />
             서로를 향한 사랑으로<br />
             하나가 되는 자리에 함께해 주세요<br />
           </p>
