@@ -92,16 +92,13 @@ function App() {
           <p className="greeting-title">INVITATION</p>
           
           <p className="greeting-text">
-            어떤 날은<br />
-            처음 사랑하던
-            떨리는 그날처럼<br /><br />
-            어떤 날은<br />
-            편안하고 오래된 친구처럼<br /><br />
-            모든 순간 모든 당신을<br />
-            사랑하겠습니다<br /><br />
-            서로를 향한 사랑으로<br />
-            하나가 되는 자리에<br />
-            함께해 주세요<br />
+            서로 다른 시간과 계절을 지나<br />
+            마침내 서로의 봄이 되었습니다<br /><br />
+            함께라서 더 깊어질 일상<br />
+            함께라서 더욱 기대되는 내일<br /><br />
+            서로의 가장 좋은 친구이자<br />
+            평생의 동반자로 살아가겠습니다<br /><br />
+            저희의 소중한 시작을 축복해 주세요.<br />
           </p>
           
           <div className="family-info">
